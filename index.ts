@@ -1,9 +1,13 @@
 import { Product, taxCalculation } from './06-function-destructuring';
-import './07-classes.ts'
+import './07-classes.ts';
+import './08-generics';
+import './10-decorators';
+import './11-optional-chaining';
 console.log('Hola mundo');
 
 const a: number = 10;
 
+console.log('----------------------------------');
 console.log(a);
 
 // IMPORTANTE:
@@ -29,8 +33,8 @@ const [total, taxTotal, abc]: number[] = taxCalculation({
 
 const { description: phoneDescription, price: phonePrice } = phone;
 
+console.log('----------------------------------');
 console.log(phoneDescription);
 
 console.log(total);
 console.log(taxTotal);
-
