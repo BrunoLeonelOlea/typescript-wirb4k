@@ -1,4 +1,5 @@
 import { Product, taxCalculation } from './06-function-destructuring';
+import './07-classes.ts'
 console.log('Hola mundo');
 
 const a: number = 10;
@@ -32,3 +33,4 @@ console.log(phoneDescription);
 
 console.log(total);
 console.log(taxTotal);
+
